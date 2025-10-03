@@ -1,0 +1,8 @@
+Сервис: Авторизация
+Эндпоинт: POST /api/v1/login
+Вход: JSON { "email": "user@example.com", "password": "secret123" }
+Успех: HTTP 200, тело: { "token": "abc123" }
+Ошибка: HTTP 401, тело: { "error": "Invalid credentials" }
+Требования: 
+- email должен быть валидным
+- пароль минимум 8 символов

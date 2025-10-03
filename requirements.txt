@@ -1,0 +1,8 @@
+crewai
+langchain
+langchain-community
+ollama
+pytest
+requests
+docker
+python-dotenv
