@@ -25,3 +25,8 @@
 2. Загрузи модель:
    ```bash
    ollama pull deepseek-coder:6.7b
+   
+## Настройка Webhook в Jira
+В Jira: Settings → System → Webhooks
+Создай новый webhook:
+ Filter: status changed to "Ready for Test" И labels contains "AI-QA"
